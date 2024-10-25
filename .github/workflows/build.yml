@@ -1,7 +1,8 @@
 name: build
 on:
   push:
-    branches: ["trunk"]
+    tags:
+      - "v*.*.*"
 
 jobs:
   build:
